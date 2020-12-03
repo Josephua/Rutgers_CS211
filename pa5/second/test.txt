@@ -1,0 +1,178 @@
+executing: ./second 512 direct fifo 16 1024 direct fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace1.txt > one_1.txt
+one_1.txt is not correct
+
+executing: ./second 512 direct lru 16 512 assoc:2 lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace1.txt  > one_2.txt
+one_2.txt is not correct
+
+executing: ./second 512 assoc:4 fifo 8 512 assoc fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace1.txt > one_3.txt
+one_3.txt is not correct
+
+executing: ./second 512 assoc:8 fifo 4 512 assoc:8 lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace1.txt > one_4.txt
+one_4.txt is not correct
+
+executing: ./second 1024 assoc:2 lru 4 2048 direct fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace1.txt > one_5.txt
+one_5.txt is not correct
+
+executing: ./second 256 assoc lru 4 512 assoc:4 fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace1.txt > one_6.txt
+one_6.txt is not correct
+
+executing: ./second 512 assoc lru 8 512 direct lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace1.txt > one_7.txt
+one_7.txt is not correct
+
+executing: ./second 1024 direct lru 4 512 assoc:4 fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace1.txt > one_8.txt
+one_8.txt is not correct
+
+executing: ./second 2048 assoc:8 fifo 4 256 assoc lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace1.txt > one_9.txt
+one_9.txt is not correct
+
+executing: ./second 512 assoc fifo 16 1024 direct fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace1.txt > one_a.txt
+one_a.txt is not correct
+
+executing: ./second 512 direct fifo 16 1024 direct fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace2.txt > two_1.txt
+two_1.txt is not correct
+
+executing: ./second 512 direct lru 16 512 assoc:2 lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace2.txt  > two_2.txt
+^CAn exception occurred while executing second trace2.txt
+myScore is  0
+diff: two_2.txt: No such file or directory
+two_2.txt is not correct
+
+executing: ./second 512 assoc:4 fifo 8 512 assoc fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace2.txt > two_3.txt
+An exception occurred while executing second trace2.txt
+my score is  0
+two_3.txt is not correct
+
+executing: ./second 512 assoc:8 fifo 4 512 assoc:8 lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace2.txt > two_4.txt
+An exception occurred while executing second trace2.txt
+myScore is  0
+^Ctwo_4.txt is not correct
+
+executing: ./second 1024 assoc:2 lru 4 2048 direct fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace2.txt > two_5.txt
+^CAn exception occurred while executing second trace2.txt
+myScore is  0
+two_5.txt is not correct
+
+executing: ./second 256 assoc lru 4 512 assoc:4 fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace2.txt > two_6.txt
+^CAn exception occurred while executing second trace2.txt
+myScore is  0
+two_6.txt is not correct
+
+executing: ./second 512 assoc lru 8 512 direct lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace2.txt > two_7.txt
+^CAn exception occurred while executing second trace2.txt
+myScore is  0
+two_7.txt is not correct
+
+executing: ./second 1024 direct lru 4 512 assoc:4 fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace2.txt > two_8.txt
+^CAn exception occurred while executing second trace2.txt
+myScore is  0
+two_8.txt is not correct
+
+executing: ./second 2048 assoc:8 fifo 4 256 assoc lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace2.txt > two_9.txt
+^CAn exception occurred while executing second trace2.txt
+myScore is  0
+two_9.txt is not correct
+
+executing: ./second 512 assoc fifo 16 1024 direct fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace2.txt > two_a.txt
+^CAn exception occurred while executing second trace2.txt
+myScore is  0
+two_a.txt is not correct
+
+executing: ./second 512 assoc fifo 16 1024 direct fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace3.txt > thr.a.txt
+^CAn exception occurred while executing second trace3.txt
+myScore is  0
+thr.a.txt is not correct
+
+executing: ./second 512 direct fifo 16 1024 direct fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace3.txt > thr_1.txt
+^CAn exception occurred while executing second trace3.txt
+my score is  0
+thr_1.txt is not correct
+
+executing: ./second 512 direct lru 16 512 assoc:2 lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace3.txt  > thr_2.txt
+^CAn exception occurred while executing second trace3.txt
+myScore is  0
+thr_2.txt is not correct
+
+executing: ./second 512 assoc:4 fifo 8 512 assoc fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace3.txt > thr_3.txt
+^CAn exception occurred while executing second trace3.txt
+my score is  0
+thr_3.txt is not correct
+
+executing: ./second 512 assoc:8 fifo 4 512 assoc:8 lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace3.txt > thr_4.txt
+^CAn exception occurred while executing second trace3.txt
+myScore is  0
+thr_4.txt is not correct
+
+executing: ./second 1024 assoc:2 lru 4 2048 direct fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace3.txt > thr_5.txt
+^CAn exception occurred while executing second trace3.txt
+myScore is  0
+thr_5.txt is not correct
+
+executing: ./second 256 assoc lru 4 512 assoc:4 fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace3.txt > thr_6.txt
+^CAn exception occurred while executing second trace3.txt
+myScore is  0
+thr_6.txt is not correct
+
+executing: ./second 512 assoc lru 8 512 direct lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace3.txt > thr_7.txt
+^CAn exception occurred while executing second trace3.txt
+myScore is  0
+thr_7.txt is not correct
+
+executing: ./second 1024 direct lru 4 512 assoc:4 fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace3.txt > thr_8.txt
+^CAn exception occurred while executing second trace3.txt
+myScore is  0
+thr_8.txt is not correct
+
+executing: ./second 2048 assoc:8 fifo 4 256 assoc lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace3.txt > thr_9.txt
+^CAn exception occurred while executing second trace3.txt
+myScore is  0
+thr_9.txt is not correct
+
+executing: ./second 512 direct fifo 16 1024 direct fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace4.txt > fou_1.txt
+^CAn exception occurred while executing second trace4.txt
+my score is  0
+fou_1.txt is not correct
+
+executing: ./second 512 direct lru 16 512 assoc:2 lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace4.txt  > fou_2.txt
+^CAn exception occurred while executing second trace4.txt
+myScore is  0
+fou_2.txt is not correct
+
+executing: ./second 512 assoc:4 fifo 8 512 assoc fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace4.txt > fou_3.txt
+^CAn exception occurred while executing second trace4.txt
+my score is  0
+fou_3.txt is not correct
+
+executing: ./second 512 assoc:8 fifo 4 512 assoc:8 lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace4.txt > fou_4.txt
+^CAn exception occurred while executing second trace4.txt
+myScore is  0
+fou_4.txt is not correct
+
+executing: ./second 1024 assoc:2 lru 4 2048 direct fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace4.txt > fou_5.txt
+^CAn exception occurred while executing second trace4.txt
+myScore is  0
+fou_5.txt is not correct
+
+executing: ./second 256 assoc lru 4 512 assoc:4 fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace4.txt > fou_6.txt
+^CAn exception occurred while executing second trace4.txt
+myScore is  0
+fou_6.txt is not correct
+
+executing: ./second 512 assoc lru 8 512 direct lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace4.txt > fou_7.txt
+^CAn exception occurred while executing second trace4.txt
+myScore is  0
+fou_7.txt is not correct
+
+executing: ./second 1024 direct lru 4 512 assoc:4 fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace4.txt > fou_8.txt
+^CAn exception occurred while executing second trace4.txt
+myScore is  0
+fou_8.txt is not correct
+
+executing: ./second 2048 assoc:8 fifo 4 256 assoc lru /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace4.txt > fou_9.txt
+^CAn exception occurred while executing second trace4.txt
+myScore is  0
+fou_9.txt is not correct
+
+executing: ./second 512 assoc fifo 16 1024 direct fifo /ilab/users/jbs272/cs211/pa5_autograder/testcases/second/input/trace4.txt > fou_a.txt
+^CAn exception occurred while executing second trace4.txt
+myScore is  0
+fou_a.txt is not correct

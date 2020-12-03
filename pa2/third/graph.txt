@@ -1,31 +1,15 @@
-10
+6
 A
 B
 C
 D
 E
 F
-G
-H
-I
-J
-F I
-J D
-C H
-C I
-B A
-J G
-I J
-H C
-E D
-D J
-A G
-E H
-C D
-G E
-G C
-C B
-G H
-E G
-G J
+A B
+A C
 A D
+B D
+C D
+C E
+D E
+E F

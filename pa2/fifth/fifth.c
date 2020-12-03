@@ -105,7 +105,7 @@ struct visited {
 	int isVisited;
 };
 
-void dfs(struct Node* input, struct visited* arr, int v) {
+void dfsTopSort(struct Node* input, struct visited* arr, int v) {
 	for (int i = 0; i < v; i++) {
 		if (strcmp(input->data,arr[i].name) == 0 && arr[i].isVisited == 0) {
 			printf("%s ", input->data); // print
@@ -124,6 +124,7 @@ void dfs(struct Node* input, struct visited* arr, int v) {
 			}
 		}
 	}
+	
 }
 
 int main(int argc, char* argv[argc + 1]) {
@@ -137,6 +138,8 @@ int main(int argc, char* argv[argc + 1]) {
 		fclose(fp);
 		return EXIT_SUCCESS;
 	}
+
+	printf("\n");
 
 	int v = 0;
 	fscanf(fp, "%d\n", &v);
@@ -166,6 +169,7 @@ int main(int argc, char* argv[argc + 1]) {
 		strcpy(arr[i].name,graph[i]->data);
 		arr[i].isVisited = 0;
 	}
+
 	char a[21];
 	char b[21];
 	int w;
@@ -182,11 +186,8 @@ int main(int argc, char* argv[argc + 1]) {
 		}
 	}
 
-	free(arr);
-
 	printf("\n");
 
+	free(arr);
+
 }
-
-
-

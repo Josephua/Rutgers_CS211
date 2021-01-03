@@ -7,6 +7,5 @@ Projects in this order
 3. Calculating IEEE 754/floating points and conversions between decimal, binary, and hexadecimal (lost a few points)
 4. Bomb lab via Assembly
 5. L1 and L2 Cache Simulator
-6. Circuits
 
 *COVID-19

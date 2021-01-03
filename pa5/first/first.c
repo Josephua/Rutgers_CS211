@@ -6,10 +6,10 @@
 #include <stdbool.h>
 #include <assert.h>
 
-unsigned long int memReads = 1;
+unsigned long int memReads = 0;
 unsigned long int memWrites = 0;
-unsigned long int misses = 1;
-unsigned long int hits = 1;
+unsigned long int misses = 0;
+unsigned long int hits = 0;
 unsigned long int validNum;
 
 typedef struct CacheLine {
